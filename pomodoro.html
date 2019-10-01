@@ -66,6 +66,7 @@
         <label for="alarm_select" id="lbl_alarm">Alarm:</label><br>
         <select id="alarm_select">
           <option value="none">None</option>
+          <option value="alarm_gong">Gong</option>
           <option value="alarm_chime">Chime</option>
           <option value="alarm_bell" selected>Bell</option>
           <option value="alarm_beeps">Beeps</option>
@@ -84,6 +85,8 @@
     </div>
   </footer>
 </div>
+<audio id="alarm_gong">
+  <source src="audio/gong_8secs.mp3" type="audio/mpeg"></audio>
 <audio id="alarm_chime">
   <source src="audio/one_chime.mp3" type="audio/mpeg"></audio>
 <audio id="alarm_bell">
